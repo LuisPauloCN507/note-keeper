@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteKeeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>📘 NoteKeeper</h1>
+            <p>Suas ideias salvas com segurança.</p>
+        </header>
+
+        <div class="input-box">
+            <textarea id="textoNota" placeholder="O que você está pensando?"></textarea>
+            <button onclick="salvarNota()">Salvar Nota</button>
+        </div>
+
+        <div id="listaNotas" class="notas-grid">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
