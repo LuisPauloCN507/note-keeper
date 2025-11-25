@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NoteKeeper</title>
+    <title>NoteKeeper History</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="app">
         <header>
             <h1>📘 NoteKeeper</h1>
-            <p>Suas ideias salvas com segurança.</p>
+            <p>Registo de ideias e pensamentos.</p>
         </header>
 
         <div class="input-box">
-            <textarea id="textoNota" placeholder="O que você está pensando?"></textarea>
-            <button onclick="salvarNota()">Salvar Nota</button>
+            <textarea id="textoNota" placeholder="Escreva uma nova entrada..."></textarea>
+            <button onclick="salvarNota()">Adicionar ao Histórico</button>
         </div>
 
-        <div id="listaNotas" class="notas-grid">
+        <div class="historico-header">
+            <h2>Histórico</h2>
+            <div class="divisor"></div>
+        </div>
+
+        <div id="listaNotas" class="notas-lista">
             </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
