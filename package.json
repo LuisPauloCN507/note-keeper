@@ -12,6 +12,9 @@
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "framer-motion": "^12.26.1",
+    "lucide-react": "^0.562.0",
+    "uuid": "^13.0.0"
   }
 }
