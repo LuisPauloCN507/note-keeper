@@ -2,13 +2,14 @@
 
 @theme {
   --color-neon: #00f3ff;
-  --color-dark: #0a0a0a;
 }
 
-body {
-  @apply bg-[#050505] text-white antialiased;
+@layer base {
+  body {
+    @apply bg-[#050505] text-white antialiased;
+    margin: 0;
+    font-family: system-ui, sans-serif;
+  }
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
+::-webkit-scrollbar { display: none; }
